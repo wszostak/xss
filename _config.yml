@@ -2,7 +2,6 @@ baseurl: /xss
 collections:
   authors:
     output: true
-include: /etc
 defaults:
   - scope:
       path: ""
