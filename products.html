@@ -1,0 +1,10 @@
+---
+title: products
+---
+<h1>Products</h1>
+
+<ul>
+{% for product in data.products %}
+  <li>{{ product.name }} [{{ product.id }}]</li>
+{% endfor %}
+</ul>
