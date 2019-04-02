@@ -1,4 +1,5 @@
 <nav>
+  {{ page.url }}
   {% for item in site.data.navigation %}
     <a href="{{ item.link }}" {% if page.url == item.link %}style="font-weight: bold;"{% endif %}>
       {{ item.name }}
